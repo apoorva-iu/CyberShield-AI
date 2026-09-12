@@ -1,0 +1,63 @@
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / Frontend dependencies & logs
+node_modules/
+frontend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build output & distributions
+dist/
+build/
+*.egg-info/
+
+# OS system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Specific large datasets
+ai_models/fake_job_detection/data/DataSet.csv
+ai_models/fake_job_detection/data/DataSet_cleaned.csv
+ai_models/url_phishing/data/raw/PhiUSIIL_Phishing_URL_Dataset.csv
+
+# Catch-all data files & folders
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+**/data/raw/
+
+# Large trained models & weights
+ai_models/url_phishing/notebooks/best_multimodal_phishnet.pth
+*.pth
+*.h5
+*.onnx
+
+# SQLite / Local DB files
+*.sqlite3
+*.db
